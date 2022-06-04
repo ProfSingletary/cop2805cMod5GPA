@@ -26,46 +26,46 @@ solution in order to earn these points.
 
 Sample Output (client), user input shown annotated with "<==":
 
-Welcome to the Project Dandelo client application.
-Currently connected to the kitten server at address "localhost" on port 8000.
-Please enter the name of a kitten: Snowball <==
-Enter Snowball's color: white <==
-Enter Snowball's age: 5 <==
-Enter Snowball's weight: 3.5 <==
-Is Snowball litter-trained? y <==
-Snowball has been successfully transported to the server!
-Please enter the name of a kitten: Mr. Snuffles <==
-Enter Mr. Snuffles's color: grey <==
-Enter Mr. Snuffles's age: 2 <==
-Enter Mr. Snuffles's weight: 7 <==
-Is Mr. Snuffles litter-trained? y <==
-Mr. Snuffles has been successfully transported to the server!
-Please enter the name of a kitten: Snowball <==
-Enter Snowball's color: white <==
-Enter Snowball's age: 5 <==
-Enter Snowball's weight: 3.5 <==
-Is Snowball litter-trained? y <==
-Snowball has been successfully transported to the server!
-Please enter the name of a kitten: Snowball <==
-Enter Snowball's color: white <==
-Enter Snowball's age: 1 <==
-Enter Snowball's weight: 3.5 <==
-Is Snowball litter-trained? n <==
-Snowball has been successfully transported to the server!
+Welcome to the Project Dandelo client application.  
+Currently connected to the kitten server at address "localhost" on port 8000.  
+Please enter the name of a kitten: Snowball <==  
+Enter Snowball's color: white <==  
+Enter Snowball's age: 5 <==  
+Enter Snowball's weight: 3.5 <==  
+Is Snowball litter-trained? y <==  
+Snowball has been successfully transported to the server!  
+Please enter the name of a kitten: Mr. Snuffles <==  
+Enter Mr. Snuffles's color: grey <==  
+Enter Mr. Snuffles's age: 2 <==  
+Enter Mr. Snuffles's weight: 7 <==  
+Is Mr. Snuffles litter-trained? y <==  
+Mr. Snuffles has been successfully transported to the server!  
+Please enter the name of a kitten: Snowball <==  
+Enter Snowball's color: white <==  
+Enter Snowball's age: 5 <==  
+Enter Snowball's weight: 3.5 <==  
+Is Snowball litter-trained? y <==  
+Snowball has been successfully transported to the server!  
+Please enter the name of a kitten: Snowball <==  
+Enter Snowball's color: white <==  
+Enter Snowball's age: 1 <==  
+Enter Snowball's weight: 3.5 <==  
+Is Snowball litter-trained? n <==  
+Snowball has been successfully transported to the server!  
 
 
 Sample Output (server):
 
-Welcome to the Project Dandelo server application.
-Currently registered on port 8000.
-New kitten received and stored: Snowball
-Current kittens:
-    Snowball, color=white, age=5, weight=3.5, litter-trained=y
-New kitten received and stored: Mr.  Snuffles
-Current kittens:
-    Snowball, color=white, age=5, weight=3.5, litter-trained=y
-    Mr. Snuffles, color=grey, age=2, weight=7.0, litter-trained=y 
-Duplicate kitten received, not stored: Snowball
-Kitten  received and modified: Snowball
-    Snowball, color=white, age=1, weight=3.5, litter-trained=n
+Welcome to the Project Dandelo server application.  
+Currently registered on port 8000.  
+New kitten received and stored: Snowball  
+Current kittens:  
+    Snowball, color=white, age=5, weight=3.5, litter-trained=y  
+New kitten received and stored: Mr.  Snuffles  
+Current kittens:  
+    Snowball, color=white, age=5, weight=3.5, litter-trained=y  
+    Mr. Snuffles, color=grey, age=2, weight=7.0, litter-trained=y   
+Duplicate kitten received, not stored: Snowball  
+Kitten  received and modified: Snowball  
+    Snowball, color=white, age=1, weight=3.5, litter-trained=n  
     Mr. Snuffles, color=grey, age=2, weight=7.0, litter-trained=y  
